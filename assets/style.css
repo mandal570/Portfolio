@@ -1,0 +1,155 @@
+body{
+
+    font-family:'Century Gothic';
+
+       
+
+}
+
+.navbar{
+
+   
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-between; 
+
+    padding: 0px 50px;
+
+    background-color: #c5c5c5;
+
+    border-style: outset;
+
+}
+
+.logo{
+
+    font-weight: bold;
+
+    
+
+}
+
+nav{
+
+    width: 500px;
+
+   
+
+}
+
+
+
+ul{
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    list-style: none;
+
+    padding: 0px;
+
+}
+
+a{
+
+    text-decoration: none;
+
+    font-size: 1rem;
+
+    color: black;
+
+}
+
+a:hover{
+
+    
+
+ font-size: larger;
+
+ color: brown;
+
+font-weight: bold;
+
+    
+
+}
+
+.home{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    padding-left: 50px;
+
+}
+
+.titre{
+
+    border: 4px;
+
+    padding-top: 100px;
+
+    width: 50%;
+
+
+
+}
+
+img{
+
+    width: 60%;
+
+}
+
+button{
+
+    border-radius: 0;
+
+    border: none;
+
+    background-color: black;
+
+    padding: 10px 20px;             
+
+}
+
+button a{
+
+    font-size: small;
+
+    text-align: center;
+
+    color: white;
+
+}
+
+.portfolio{
+
+    display: flex;
+
+    flex-direction: row;
+
+    flex-wrap: wrap;
+
+    border: 2px solid black;
+
+}
+
+img[alt="avatar"]{
+
+    margin: 15px 15px;
+
+    width: 500px;
+
+}
+
+            
+
+  
